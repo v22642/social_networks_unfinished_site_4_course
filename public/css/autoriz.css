@@ -1,0 +1,103 @@
+body{
+  margin: auto;
+  background-color: #5B5B5B;
+  color: white;
+}
+.block-reg{
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  background-color: #6A6A6A;
+  border-radius: 25px;
+}
+.text-h{
+  padding-top: 20px;
+}
+.text{
+  text-align: left;
+  margin-left: 60px;
+}
+.green-line{
+  border: 1px solid #7FAB00;
+}
+.input{
+  background-color: #606060;
+  border: 1px solid #535353;
+  width: 400px;
+  height: 50px;
+  border-radius: 15px;
+}
+.button-reg{
+  background-color: #606060;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #535353;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.autoriz-text{
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 375px){
+  body{
+    margin: auto;
+    background-color: #5B5B5B;
+    color: white;
+  }
+  .block-reg{
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    background-color: #6A6A6A;
+    border-radius: 25px;
+  }
+  .text-h{
+    padding-top: 20px;
+  }
+  .text{
+    text-align: left;
+    margin-left: 40px;
+    padding-bottom: -10px;
+  }
+  .green-line{
+    border: 1px solid #7FAB00;
+  }
+  .input{
+    background-color: #606060;
+    border: 1px solid #535353;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  label{
+    text-align: left;
+    margin: auto;
+    width: 300px;
+    display: flex;
+  }
+  label input{
+    margin-right: 20px;
+  }
+  .button-reg{
+    background-color: #606060;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #535353;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .autoriz-text{
+    padding-bottom: 20px;
+  }
+}

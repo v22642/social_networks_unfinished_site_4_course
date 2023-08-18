@@ -1,0 +1,108 @@
+body{
+  margin: auto;
+  background-color: #5B5B5B;
+  color: white;
+}
+.main{
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: 400px 1150px;
+  grid-template-rows: 500px;
+}
+.msg-friend{
+  margin: auto;
+  background-color: #6A6A6A;
+  width: 250px;
+  height: 600px;
+  border-radius: 25px;
+  border: 1px solid #535353;
+}
+.green-line{
+  width: 220px;
+  border: 1px solid #7FAB00;
+}
+.msg-start{
+  display: flex;
+}
+.msg-start img{
+  height: 30px;
+  padding-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+.user{
+  text-align: center;
+}
+.user-img{
+  display: flex;
+}
+.img1{
+  border: 1px solid #7FAB00;
+  border-radius: 300px;
+  margin-top: 14px;
+  margin-left: 15px;
+  margin-right: 5px;
+  height: 30px;
+}
+.img2{
+  height: 30px;
+  margin-top: 14px;
+  margin-left: 5px;
+}
+.msg-text{
+  display: grid;
+  grid-template-rows: 100px 350px 150px;
+  height: 600px;
+  background-color: #6A6A6A;
+  border-radius: 25px;
+  border: 1px solid #535353;
+}
+.msg-text-info{
+  display: flex;
+}
+.img3{
+  height: 30px;
+  border-radius: 300px;
+  border: 1px solid #93E278;
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.green-line-2{
+  border: 1px solid #7FAB00;
+}
+.dialog{
+  margin-top: 180px;
+  margin-left: 20px;
+}
+.dialog-text{
+  width: 100px;
+  background-color: #797979;
+  border: 1px solid #535353;
+  padding: 20px;
+  border-radius: 25px;
+}
+label{
+  text-align: center;
+}
+.input{
+  background-color: #606060;
+  border: 1px solid #535353;
+  width: 1000px;
+  height: 40px;
+  border-radius: 15px;
+}
+.button-send{
+  margin-top: 30px;
+  text-align: center;
+  background-color: #606060;
+  border: 1px solid #535353;
+  border-radius: 15px;
+  height: 40px;
+
+}
+.img4{
+  margin: auto;
+  height: 40px;
+}

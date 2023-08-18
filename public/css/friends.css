@@ -1,0 +1,161 @@
+body{
+  /* text-align:none; */
+  margin: auto;
+  background-color: #5B5B5B;
+  color: white;
+}
+.friends{
+  margin: auto;
+  background-color: #6A6A6A;
+  border: 1px solid #535353;
+  border-radius: 25px;
+  width: 1150px;
+  height: 600px;
+}
+.friends h3{
+  text-align:center;
+}
+.input-field{
+  display: flex;
+}
+.input{
+  background-color: #606060;
+  border: 1px solid #535353;
+  width: 900px;
+  height: 50px;
+  border-radius: 15px;
+}
+.label{
+  margin-left: 90px;
+  margin-top: 20px;
+  text-align: left;
+  display: flex;
+}
+.label input{
+  margin-right: 20px;
+}
+.button-send{
+  text-align: center;
+  background-color: #606060;
+  border: 1px solid #535353;
+  border-radius: 15px;
+  height: 54px;
+
+}
+.img3{
+  margin-top: 3px;
+  margin-right: 10px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 300px;
+  border: 2px solid #93E278;
+}
+.img4{
+  margin: auto;
+  height: 40px;
+}
+.user{
+  margin: auto;
+  width: 900px;
+  background-color: #606060;
+  border: 1px solid #535353;
+  border-radius: 25px;
+}
+.user-info{
+  
+  display: flex;
+}
+.img5{
+  height: 35px;
+  margin-left: 640px;
+  margin-top: 13px;
+}
+.img6{
+  margin-top: 21px;
+  margin-left: 649px;
+  height: 20px;
+  width: 20px;
+}
+.green-line{
+  width: 1100px;
+  border: 1px solid #7FAB00;
+}
+@media only screen and (max-width: 375px){
+  body{
+    /* text-align: center; */
+    margin: auto;
+    background-color: #5B5B5B;
+    color: white;
+  }
+  .friends{
+    margin: auto;
+    background-color: #6A6A6A;
+    border: 1px solid #535353;
+    border-radius: 25px;
+    width: 350px;
+    height: 500px;
+  }
+  .input-field{
+    margin-top: 20px;
+    display: flex;
+  }
+  .input{
+    background-color: #606060;
+    border: 1px solid #535353;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  .label{
+    margin-left: 50px;
+    display: flex;
+  }
+  .label input{
+    margin-right: 20px;
+  }
+  .button-send{
+
+    background-color: #606060;
+    border: 1px solid #535353;
+    border-radius: 15px;
+    height: 54px;
+    
+  
+  }
+  .img3{
+    margin-top: 3px;
+    margin-right: 10px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 300px;
+    border: 2px solid #93E278;
+  }
+  .img4{
+    margin: auto;
+    height: 40px;
+  }
+  .user{
+    margin: auto;
+    width: 335px;
+    background-color: #606060;
+    border: 1px solid #535353;
+    border-radius: 25px;
+  }
+  .user-info{
+    display: flex;
+  }
+  .img5{
+    height: 35px;
+    margin-left: 65px;
+    margin-top: 13px;
+  }
+  .img6{
+    margin-top: 21px;
+    margin-left: 70px;
+    height: 20px;
+    width: 20px;
+  }
+  .green-line{
+    border: 1px solid #7FAB00;
+  }
+}

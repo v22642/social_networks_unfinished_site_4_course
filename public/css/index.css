@@ -1,0 +1,338 @@
+body{
+  margin: auto;
+  background-color: #5B5B5B;
+  color: white;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: repeat(3, 640px);
+  grid-template-rows: 500px;
+}
+.profile-info{
+  text-align: center;
+  margin: auto;
+  width: 200px;
+}
+.profile-info-div{
+  padding-top: 30px;
+  background-color: #6A6A6A;
+  border-radius: 300px 300px 25px 25px;
+  padding-bottom: 30px;
+}
+.pimg-1{
+  width: 100px;
+  height: 100px;
+  border-radius: 300px ;
+}
+.himg{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px;
+}
+.green-line{
+  width: 150px;
+  border: 1px solid #7FAB00;
+}
+.profile-info-1{
+  margin: auto;
+  width: 150px;
+  border: 1px solid #5E5E5E;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.profile-info-1 img{
+  height: 25px;
+}
+.profile-info-2{
+  margin: auto;
+  width: 150px;
+  border: 1px solid #5E5E5E;
+  border-radius: 15px;
+}
+.profile-info-2 img{
+  height: 30px;
+}
+.button-settings{
+  margin-top: 20px;
+  display: flex;
+  width: 200px;
+  background-color: #6A6A6A;
+  border-radius: 25px;
+}
+.button-settings img{
+  height: 30px;
+  padding-top: 9px;
+  padding-left: 40px;
+}
+.profile-post{
+  border-radius: 25px;
+  margin: auto;
+}
+.create-post{
+  display: flex;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  border: 1px solid #535353;
+  background-color: #6A6A6A;
+  border-radius: 25px;
+}
+.create-post img{
+  padding-top: 13px;
+  height: 25px;
+}
+.create-post p{
+  width: 100px;
+}
+.create-post-1{
+  display: flex;
+  margin: auto;
+  
+}
+.green-line-1{
+  border: 1px solid #7FAB00;
+}
+.user-post{
+  border-radius: 25px;
+  width: 500px;
+  height: 520px;
+  background-color: #6A6A6A;
+}
+.user-post-info-1{
+  display: flex;
+}
+.user-post-info-1 img{
+  /* height: 50px; */
+  padding-top: 15px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+.poct{
+  margin-top: 30px;
+}
+.poct1{
+  margin-top: 30px;
+  margin-left: 750px;
+}
+.post-img{
+ margin: auto;
+  width: 400px;
+  height: 300px;
+  /*  */
+}
+.user-post-p{
+  text-align: center;
+}
+.green-line-2{
+  width: 450px;
+  border: 1px solid #7FAB00;
+}
+.user-post-like{
+  border-radius: 15px;
+  margin-left: 20px;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #5E5E5E;
+  display: flex;
+}
+.user-post-like img{
+  height: 25px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+.user-post-2{
+  margin-top: 40px;
+  background-color: #6A6A6A;
+  border-radius: 25px;
+}
+.profile-media{
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  background-color: #6A6A6A;
+  height: 330px;
+}
+.profile-media img{
+ height: 20px;
+ padding-top: 15px;
+ margin-right: 5px;
+}
+.media-example{
+  margin-top: 20px;
+  height: 40px;
+  margin-left: 28px;
+  padding-left: 33px;
+  width: 100px;
+  text-align: center;
+  display: flex;
+  border: 1px solid #5E5E5E;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 375px){
+  body{
+    margin: auto;
+    background-color: #5B5B5B;
+    color: white;
+    width: 375px;
+    }
+    .main{
+      display: grid;
+  
+      grid-template-columns: 189px 186px;
+      grid-template-rows: 0.2fr 0.2fr 1fr;
+    }
+    .profile-info{
+      text-align: center;
+      margin: auto;
+      width: 200px;
+      grid-column: 1/2;
+      margin-left: 10px;
+    }
+    .profile-info-div{
+      padding-top: 30px;
+      background-color: #6A6A6A;
+      border-radius: 300px 300px 25px 25px;
+      padding-bottom: 30px;
+    }
+    .pimg-1{
+      width: 100px;
+    }
+    .green-line{
+      width: 150px;
+      border: 1px solid #7FAB00;
+    }
+    .profile-info-1{
+      margin: auto;
+      width: 150px;
+      border: 1px solid #5E5E5E;
+      margin-bottom: 20px;
+      border-radius: 15px;
+    }
+    .profile-info-1 img{
+      height: 25px;
+    }
+    .profile-info-2{
+      margin: auto;
+      width: 150px;
+      border: 1px solid #5E5E5E;
+      border-radius: 15px;
+    }
+    .profile-info-2 img{
+      height: 30px;
+    }
+    .button-settings{
+      margin-top: 20px;
+      display: flex;
+      width: 350px;
+      background-color: #6A6A6A;
+      border-radius: 25px;
+    }
+    .button-settings img{
+      height: 30px;
+      padding-top: 9px;
+      padding-left: 120px;
+    }
+    .profile-post{
+      border-radius: 25px;
+      grid-column: 1/3;
+      grid-row: 3/4;
+      margin: auto;
+    }
+    .create-post{
+      display: flex;
+      text-align: center;
+      width: 300px;
+      margin: auto;
+      border: 1px solid #535353;
+      background-color: #6A6A6A;
+      border-radius: 25px;
+    }
+    .create-post img{
+      padding-top: 13px;
+      height: 25px;
+    }
+    .create-post p{
+      width: 100px;
+    }
+    .create-post-1{
+      display: flex;
+      margin: auto;
+    }
+    .green-line-1{
+      border: 1px solid #7FAB00;
+    }
+    .user-post{
+  
+      border-radius: 25px;
+      width: 320px;
+      height: 480px;
+      background-color: #6A6A6A;
+    }
+    .user-post h1{
+      font-size: 30px;
+    }
+    .user-post-info-1{
+      display: flex;
+    }
+    .user-post-info-1 img{
+      height: 50px;
+      padding-top: 15px;
+      padding-left: 20px;
+      margin-right: 10px;
+    }
+    .post-img{
+     margin: auto;
+      width: 300px;
+    }
+    .user-post-p{
+      text-align: center;
+    }
+    .green-line-2{
+      width: 300px;
+      border: 1px solid #7FAB00;
+    }
+    .user-post-like{
+      border-radius: 15px;
+      margin-left: 20px;
+      width: 50px;
+      height: 40px;
+      border: 1px solid #5E5E5E;
+      display: flex;
+    }
+    .user-post-like img{
+      height: 25px;
+      padding-top: 10px;
+      margin-right: 10px;
+    }
+    .user-post-2{
+      margin-top: 40px;
+      background-color: #6A6A6A;
+      border-radius: 25px;
+    }
+    .user-post-2 h1{
+      font-size: 30px;
+    }
+    .profile-media{
+      border-radius: 10px;
+      margin-left: 28px;
+      width: 150px;
+      background-color: #6A6A6A;
+      height: 330px;
+      grid-column: 2/3;
+      margin-top: 25px;
+    }
+    .profile-media img{
+     height: 20px;
+     padding-top: 15px;
+    
+    }
+    .media-example{
+      text-align: center;
+      border: 1px solid #5E5E5E;
+      border-radius: 15px;
+      padding-left: 20px;
+      margin-left: 15px;
+    }
+  }
